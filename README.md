@@ -112,6 +112,8 @@ This project was executed by locally launching Jupyter notebook and importing th
 Content-based filtering uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback.
 
 ## Test
+We see the movies recommended to us based on their similarities in relation to the movie 'Fargo'
 
+![Screenshot](test2.png)
 
 
