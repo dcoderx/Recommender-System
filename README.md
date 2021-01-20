@@ -124,8 +124,10 @@ __Adding the 'Number of times rated' column gives a clearer description of the d
 ![Screenshot](test_3.png)
 
 
-__Short-comings__: Many people have not watched many movies so there is some bias in the data. Some movies have been rated only once and this leads to an irregularity in the data.
-    This can be fixed by putting a paremeter on the column 'Number of times rated'. i.e : setting a parameter that forces the system to display movies that have been rated over a hundred times.
+## Short-comings :
+
+Many people have not watched many movies so there is some bias in the data. Some movies have been rated only once and this leads to an irregularity in the data.
+This can be fixed by putting a paremeter on the column 'Number of times rated'. i.e : setting a parameter that forces the system to display movies that have been rated over a hundred times.
     
     
 
