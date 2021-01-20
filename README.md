@@ -119,7 +119,7 @@ Note : The list is in the descending order, meaning it displays the most similar
 ![Screenshot](test_2.png)
 
 
-__Adding the 'Number of times rated' column gives a clearer description of the data and how/why certain movies are recommended.
+__Adding the 'Number of times rated' column gives a clearer description of the data and how/why certain movies are recommended.__
 
 ![Screenshot](test_3.png)
 
