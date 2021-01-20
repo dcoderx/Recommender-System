@@ -114,6 +114,6 @@ Content-based filtering uses item features to recommend other items similar to w
 ## Test
 We see the movies recommended to us based on their similarities in relation to the movie 'Fargo'
 
-![Screenshot](test 2.png)
+![Screenshot](test_2.png)
 
 
