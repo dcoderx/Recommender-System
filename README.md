@@ -52,4 +52,4 @@ See [`CONTRIBUTING.rst`](CONTRIBUTING.rst) for how to set up a local development
 ## Execution of project
 This project was executed by locally launching Jupyter notebook and importing the necessary libraries.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/n_libraries.jpg?raw=true)
+![Screenshot](n_libraries.png)
