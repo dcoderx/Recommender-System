@@ -104,7 +104,7 @@ Genres are a pipe-separated list, and are selected from the following:
 
 movieId is an identifier for movies used by <https://movielens.org>. E.g., the movie Toy Story has the link <https://movielens.org/movies/1>.
 
-This project was executed by locally launching Jupyter notebook and importing the necessary libraries.
+__Execution :__ This project was executed by locally launching Jupyter notebook and importing the necessary libraries.
 
 ![Screenshot](n_libraries.png)
 
@@ -114,6 +114,18 @@ Content-based filtering uses item features to recommend other items similar to w
 ## Test
 We see the movies recommended to us based on their similarities in relation to the movie 'Fargo'
 
+Note : The list is in the descending order, meaning it displays the most similar movies first.
+
 ![Screenshot](test_2.png)
 
+
+__Adding the 'Number of times rated' column gives a clearer description of the data and how/why certain movies are recommended.
+
+![Screenshot](test_3.png)
+
+
+__Short-comings__: Many people have not watched many movies so there is some bias in the data. Some movies have been rated only once and this leads to an irregularity in the data.
+    This can be fixed by putting a paremeter on the column 'Number of times rated'. i.e : setting a parameter that forces the system to display movies that have been rated over a hundred times.
+    
+    
 
