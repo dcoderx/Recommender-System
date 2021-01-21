@@ -104,9 +104,38 @@ Genres are a pipe-separated list, and are selected from the following:
 
 movieId is an identifier for movies used by <https://movielens.org>. E.g., the movie Toy Story has the link <https://movielens.org/movies/1>.
 
-__Execution :__ This project was executed by locally launching Jupyter notebook and importing the necessary libraries.
+## Execution : 
+__Step by step description:__
+
+- Locally launching Jupyter notebook 
+
+- Importing the necessary libraries.
 
 ![Screenshot](n_libraries.png)
+
+- Loading the dataset
+
+- Merging the datasets on a common key i.e : 'movieId'
+
+- Data readings on the count and mean of 'ratings'
+
+- Creation of a data frame that summarizes the data
+
+- Exploratory data analysis with the new dataframe
+
+- Creation of a pivot table to provude a multi-dimensional summary of the data : using 'userId' as an axis and 'movie title' as the another axis
+
+- Sorting data for better understanding
+
+- Creation of panda series according to pivot table
+
+- Finding the correlation/similarities between 2 panda series by using : corrwith(pandas series)
+
+- Converting panda series back to data frame and dropping NaN values
+
+- Sorting data in descending order to find movies with a higher correlation value
+
+
 
 ### Mode of Filtering
 Content-based filtering uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback.
