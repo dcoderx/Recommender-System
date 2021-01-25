@@ -147,5 +147,12 @@ __Adding the 'Number of times rated' column gives a clearer description of the d
 Many people have not watched many movies so there is some bias in the data. Some movies have been rated only once and this leads to an irregularity in the data.
 This can be fixed by putting a paremeter on the column 'Number of times rated'. i.e : setting a parameter that forces the system to display movies that have been rated over a hundred times.
     
-    
+__ctf : correlation_to_fargo.__
 
+   In order to increase the efficacy of the recommender , we instill a paremeter that drops/deletes movies that have been rated less that 100 times.
+
+![Screenshot](1.png)
+
+   Then we sort in descending order to get the most similar movies.
+   
+![Screenshot](2.png)
