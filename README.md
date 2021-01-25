@@ -149,7 +149,7 @@ This can be fixed by putting a paremeter on the column 'Number of times rated'. 
     
 __ctf : correlation_to_fargo.__
 
-   In order to increase the efficacy of the recommender , we instill a paremeter that drops/deletes movies that have been rated less that 100 times.
+   In order to increase the efficacy of the recommender , we instill a paremeter that drops/deletes movies that have been rated less than 100 times.
 
 ![Screenshot](1.png)
 
