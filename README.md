@@ -127,7 +127,8 @@ __Step by step description:__
 
 
 ### Mode of Filtering
-Content-based filtering uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback.
+Collaborative filtering -  is a technique that can filter out items that a user might like on the basis of reactions by similar users. It works by searching a large group of people and finding a smaller set of users with tastes similar to a particular user.
+
 
 ## Test
 We see the movies recommended to us based on their similarities in relation to the movie 'Fargo'
