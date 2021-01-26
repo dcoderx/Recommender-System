@@ -131,6 +131,8 @@ Since we only have information on the movie title and ratings, the mode used is 
 
 Collaborative filtering : is a technique that can filter out items that a user might like on the basis of reactions by similar users. It works by searching a large group of people and finding a smaller set of users with tastes similar to a particular user. 
 
+__Drawback__: Collaborative filtering does not perform well if the dataset is sparse
+
 
 ## Test
 We see the movies recommended to us based on their similarities in relation to the movie 'Fargo'
