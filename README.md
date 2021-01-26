@@ -127,7 +127,7 @@ __Step by step description:__
 
 
 ### Mode of Filtering
-Collaborative filtering -  is a technique that can filter out items that a user might like on the basis of reactions by similar users. It works by searching a large group of people and finding a smaller set of users with tastes similar to a particular user. This type of filtering is built on the premise that similar users like similar things.
+Content-based filtering : uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback. In this case, the feature used is the movie ratings.
 
 
 ## Test
